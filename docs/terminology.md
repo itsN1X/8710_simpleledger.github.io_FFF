@@ -28,7 +28,7 @@ The minimum amount of [satoshis](#satoshi) allowed for an output, currently 546.
 
 ## Federated Validation
 
-Federated Validation is the idea to query multiple different third-party SLP validation services and ensure all or a large majority of their results are in agreement. This is necessarily weaker security than [graph search](#graph-search) however for resource constrained devices the performance benefits may outweigh the reduction in security. This is still a much better choice than having a single point of failure server.
+Federated Validation is the idea to query multiple different third-party SLP validation services and ensure all or a large majority of their results are in agreement. This is necessarily weaker security than [graph search](#graph-search). However, for resource constrained devices, the performance benefits may outweigh the reduction in security. This is still a much better choice than having a single point of failure server.
 
 ## Graph Search
 
@@ -36,7 +36,7 @@ Graph Search is a method of trustless validation which reconstructs the [DAG](#d
 
 ## Genesis
 
-The first transaction to create a token. For [Child NFTs](#child-nft) this involves burning a [Group NFT](#group-nft) token. However, for regula tokens you don't need any prior SLP - Genesis transactions can be created using only BCH [UTXOs](#utxo).
+The first transaction to create a token. For [Child NFTs](#child-nft) this involves burning a [Group NFT](#group-nft) token. However, for regular tokens you don't need any prior SLP - Genesis transactions can be created using only BCH [UTXOs](#utxo).
 
 ## Group NFT
 
@@ -56,7 +56,7 @@ During [Genesis](/specs/slp-token-type-1/#genesis-token-genesis-transaction) you
 
 ## NFT
 
-Non-fungible Token, or in other words, a token where their exists only 1. You can make NFTs using [TokenType1](/specs/slp-token-type-1/), however it is usually better to use [NFT1](/specs/slp-nft-1/) as they give additional functionality such as [Grouping](#group-nft) and [Child](#child-nft). In addition, using NFT1 can allow for different handling by wallets and explorers to better represent the tokens special place as the only one of its kind.
+Non-fungible Token, or in other words, a token where there exists only 1. You can make NFTs using [TokenType1](/specs/slp-token-type-1/), however it is usually better to use [NFT1](/specs/slp-nft-1/) as they give additional functionality such as [Grouping](#group-nft) and [Child](#child-nft). In addition, using NFT1 can allow for different handling by wallets and explorers to better represent the tokens special place as the only one of its kind.
 
 ## OP_RETURN
 
